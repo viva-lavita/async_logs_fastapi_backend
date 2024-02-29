@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "note-vi"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["Viva <sovestyaaaa@gmail.com>"]
@@ -19,6 +19,11 @@ asyncpg = "^0.29.0"
 httpx = "^0.27.0"
 python-jose = "^3.3.0"
 ciso8601 = "^2.3.1"
+graypy = "^2.1.0"
+sentry-sdk = "^1.40.6"
+opentelemetry-sdk = "^1.23.0"
+opentelemetry-api = "^1.23.0"
+opentelemetry-exporter-otlp-proto-grpc = "^1.23.0"
 
 
 [build-system]
